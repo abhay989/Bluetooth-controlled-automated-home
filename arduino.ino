@@ -107,38 +107,8 @@ void loop() {
               
 
               break;
-             case '4'://for continuously turning on led for 2 seconds and then turning off led for 3 seconds
-             while(true){
-
-              Serial.println("  on");
-
-              digitalWrite(led1,HIGH);
-             delay(2000);
-             digitalWrite(led1,LOW);
-             delay(3000);}
-              
-              
-
-              break;
-
-               case '5'://for turning off all-led on arduino,led,fan
-
-              Serial.println("all off");
-
-              digitalWrite(LED_PIN,LOW);
-              digitalWrite(led1,LOW );
-              digitalWrite(led2,LOW );//LED 1 IS LCD
-              break;
-
-                 case '6'://for turning on all-led on arduino,led and fan
-
-              Serial.println("all on");
-
-              digitalWrite(LED_PIN,HIGH);
-              digitalWrite(led1,HIGH );
-              digitalWrite(led2,HIGH );//LED 1 IS LCD
-              break;
-              
+             
+           
 
         default:
 
